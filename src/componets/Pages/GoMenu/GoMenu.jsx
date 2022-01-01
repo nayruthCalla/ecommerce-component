@@ -10,7 +10,6 @@ import menu5 from '../../../assets/plate__tortellini.png';
 import menu6 from '../../../assets/plate__fish-sticks-fries.png';
 import menu7 from '../../../assets/plate__chicken-salad.png';
 import menu8 from '../../../assets/plate__bacon-eggs.png';
-import chevron from '../../../assets/chevron.svg'
 
 //fake data
 
