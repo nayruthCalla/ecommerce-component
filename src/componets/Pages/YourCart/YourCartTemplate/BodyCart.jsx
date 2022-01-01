@@ -42,6 +42,14 @@ const QuantiTyText = styled.h2`
   border-radius: 20px;
   color: #FFFF;
   padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  @media screen and (min-width: 768px) {
+    top: 15px;
+    right: 18px;
+  }
+  @media screen and (min-width: 1024px) {
+    top: 23px;
+    right: 23px;
+  }
 `;
 
 const BodyCart = ({cartImg, description, price,qty,setTotal,total}) => {  

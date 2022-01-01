@@ -9,6 +9,41 @@ const Container = styled.article`
   flex-direction: column;
   padding: 2rem;
   margin: 7rem 0 0 0;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 70px #C7CBE3;  
+  @media screen and (min-width: 768px) {
+    width: 45%;
+    height: 484px;
+    margin: 7rem 0 7rem 0;
+    border-radius: 25px;
+    overflow-y: scroll;
+  overflow-x: hidden;
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color:  rgba(122, 178, 243, 0.898);
+}
+  
+  }
+  @media screen and (min-width: 1024px) {
+    height: 484px;
+    margin-top: 70px;
+    width: 415px;
+  }
 `;
 const TitleYourCart = styled.h2`
   font-weight: bold;

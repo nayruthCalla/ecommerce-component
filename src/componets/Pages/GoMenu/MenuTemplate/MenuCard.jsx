@@ -16,12 +16,24 @@ const Container = styled.article`
   left: 1.5rem;
   .iconCart{
   }
+  @media screen and (min-width: 768px) {    
+  
+  }
+  @media screen and (min-width: 1024px) {
+    padding-bottom: 2rem;
+  }
 `;
 const GoMenuDesCon = styled.article`
   display: flex;
   width: 50%;
   flex-direction:column;
   align-items: flex-start;
+  @media screen and (min-width: 768px) {    
+  
+}
+@media screen and (min-width: 1024px) {
+  width: 70%;
+}
 `;
 const MenuTitle = styled.h3`
   font-weight: normal;
@@ -43,6 +55,12 @@ const AddButton = styled('button')(
   position: absolute;
   top: 144px;
   font-weight: bold;
+  @media screen and (min-width: 768px) {    
+  
+  }
+  @media screen and (min-width: 1024px) {
+    top: 100px;
+  }
 ` )
 );
 const MenuImage = styled.img`
@@ -51,6 +69,13 @@ const MenuImage = styled.img`
   top: -2rem;
   left: -3.6rem;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  @media screen and (min-width: 768px) {    
+  
+  }
+  @media screen and (min-width: 1024px) {
+    width: 40%;
+    top: -1rem;
+  }
 `;
 
 const MenuCard = ({menuTitle, price, menuImage,inCart}) => {
